@@ -8,7 +8,6 @@ Like AirBnB but for high end electronics. Tired of paying ridiculous fees for ca
 
 ### Prerequisites (for local use)
 - run `yarn` in order to install all dependencies
-- use the command `yarn server` to run a live server!
 
 ### To run, navigate to use-my-tech-stuff2/src and run 
     `yarn start`
