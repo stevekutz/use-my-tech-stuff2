@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import { connect } from 'react-redux';
-import { addUser, getUsers } from '../actions/___SignUp';
+import { addUser, getUsers } from '../actions/SignUp';
 import styled from 'styled-components';
 // import UserList from './UserList';
 

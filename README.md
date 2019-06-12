@@ -48,7 +48,6 @@ Like AirBnB but for high end electronics. Tired of paying ridiculous fees for ca
     - Confirming allows user to Confirm item to be rented
 
 ## Endpoints
-## Endpoints
 
 | Method | Endpoint               | Requires                        | Description                                                             |
 | ------ | ---------------------- | ------------------------------- | ----------------------------------------------------------------------- |
