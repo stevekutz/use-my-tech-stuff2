@@ -21,3 +21,4 @@ const PrivateRoute = ({ component: Genericomponent, ...therest }) => {
 };
 
 export default PrivateRoute;
+

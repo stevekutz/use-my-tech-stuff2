@@ -28,7 +28,7 @@ const initialState = {
   deletingTech: false,
   updatingTech: false,
 
- // token: localStorage.getItem('token'),
+  token: localStorage.getItem('token'),    // Uncommenteditms
 };
 
 export const itemsReducer = (state = initialState, action) => {

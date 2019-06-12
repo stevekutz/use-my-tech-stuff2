@@ -4,7 +4,7 @@ import './App.css';
 import {deleteTech} from "../actions";
 import {connect} from 'react-redux';
 import ModalUpdateTech from './ModalUpdateTech';
-import ModalRentalRequest from './ModalRentalRequest';
+// import ModalRentalRequest from './ModalRentalRequest';
 import ModalRentalRequest2 from './ModalRentalRequest2';
 
 import {
@@ -17,33 +17,22 @@ import {
   ItemDescription,
   ItemAvailable,
   ItemRented,
-
-
-
-
-
-
 } from '../styled/TechItemStyles';
-
-
 
 class TechItem extends Component {
 
   handleDelete = (e, id) => {
-   console.log(">>>>>>>>>>>>>>>>>>> deleting");
+   console.log(">> deleting");
     e.preventDefault();
     this.props.deleteTech(id);
-
   };
-
 
   render()  {
 
     const {techItem, id} = this.props;
 
     return (
-      <TechItemContainer   key = {id}       >
-
+      <TechItemContainer key = {id} >
 
         <ButtonsContainer>
           {Number(localStorage.getItem('user_id')) === techItem.user_id
@@ -78,16 +67,13 @@ class TechItem extends Component {
         </ImageContainer>
 
         <ItemH4> Owner: {techItem.user} </ItemH4>
-        {/* <>       <h4 className = "borderFormat" >ID: {techItem.user_id}</h4>  </> */}
         <ItemH5  > {techItem.name} </ItemH5>
         <ItemH5> Category: {techItem.category} </ItemH5>
         <ItemH5> Cost: ${techItem.cost} </ItemH5>
         <ItemH5> Availability: {techItem.availability.toString()} </ItemH5>
         <ItemDescription>  Description: {techItem.description} </ItemDescription>
       </TechItemContainer>   // end of techItem-container
-
     )
-
   }
 
 }
