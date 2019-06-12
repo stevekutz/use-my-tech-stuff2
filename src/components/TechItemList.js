@@ -6,27 +6,21 @@ import Loader from 'react-loader-spinner';
 import {getTech, deleteTech, updateTech, addTech} from '../actions';
 import { connect } from 'react-redux';
 import { withRouter } from "react-router-dom";
-// import { FaBeer } from 'react-icons/fa';
 import AddTechForm from './AddTechForm';
-// import axios from "axios";
 import TechItem from './TechItem';
 
 
 import {
   TechItemListContainer,
   TechTitle,
-
-
 } from '../styled/TechItemStyles';
 
 class TechItemlist extends Component {
 
-
   componentDidMount() {
     this.props.getTech();
   }
-
-
+        // BUILD modal for AddTechForm 
   render() {
 
     return (
@@ -55,15 +49,12 @@ class TechItemlist extends Component {
   }
 }
 
-
 const mapStateToProps = ({techItems, fetchingData, deletingTech, updatingTech, addingTech}) => ({
   techItems,
   fetchingData,
   deletingTech,
   updatingTech,
   addingTech,
-
-
 });
 
 export default withRouter(
