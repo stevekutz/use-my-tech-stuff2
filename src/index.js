@@ -5,11 +5,6 @@ import App from './components/App';
 
 import 'bootstrap/dist/css/bootstrap.min.css';
 
-
-// test
-
-// import * as serviceWorker from './serviceWorker';
-
 // import { logger } from "./logger";  // we don't use our custom built one here
 
 import rootReducer from "./reducers";

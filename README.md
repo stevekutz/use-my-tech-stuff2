@@ -43,7 +43,7 @@ Like AirBnB but for high end electronics. Tired of paying ridiculous fees for ca
     - URL
     - description
 
-- If you are `NOT the owner` of the Tech Item, you are given the option
+- If you are `NOT the owner` of the Tech Item, you are given only one option
     - Rent Me - displays Modal showing Tech Item name & owner of  Tech Item. 
     - Confirming allows user to Confirm item to be rented
 
