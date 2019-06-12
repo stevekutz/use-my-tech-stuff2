@@ -2,7 +2,7 @@ import styled from 'styled-components';
 
 
 const LoginContainer = styled.div`
-  width: 40%;
+  width: 50%;
   padding: 4px;
   margin: 40px auto;
   display: flex;
@@ -10,7 +10,7 @@ const LoginContainer = styled.div`
   display: flex;
   flex-direction: column;
   border-radius: 20px;
-  border: 2px solid dodgerblue;
+  border: px solid dodgerblue;
   padding: 20px 40px;
   background: whitesmoke;
 
@@ -28,7 +28,7 @@ const LoginForm = styled.form`
 
 const LoginInfoContainer = styled.div`
   display: flex;
-  width: 90%;
+  width: 95%;
   justify-content: center;
   flex-direction: column;
   align-items: center;
@@ -98,7 +98,7 @@ const SignUpButton = styled.button`
   margin: 10px;
   border: 1px solid seagreen;
   background: lightskyblue;
-  width: 40%;
+  width: 45%;
   text-align: center;
   &:hover {
   background: dodgerblue;
